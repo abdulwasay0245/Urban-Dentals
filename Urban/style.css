@@ -106,3 +106,40 @@ img{
     bottom: 5%;
     right: 3%;
 }
+@media (max-width:1170px) {
+    #heading{
+        font-size: 100px;
+    }
+    img{
+        height: 300px;
+        width: 200px;
+    }
+} 
+@media (max-width: 900px) {
+    #heading{
+        font-size: 70px ;
+    }
+         img {
+             height: 220px;
+             width: 150px;
+         }
+}
+@media (max-width: 630px) {
+    #heading {
+        font-size: 50px;
+    }
+
+    img {
+        height: 180px;
+        width: 100px;
+    }
+}
+@media (max-width:600px) {
+    #nav-part2{
+        display: flex;
+        
+    }
+    #nav-part2 h1{
+        text-align: center;
+    }
+}
